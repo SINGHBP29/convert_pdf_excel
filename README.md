@@ -1,98 +1,73 @@
-# convert_pdf_excel
-# **📌 PDF to Structured Excel Converter using OCR**  
+Here's an **attractive and well-structured README** for your project:  
 
-**🔗 GitHub Repository:** [Insert GitHub Link]  
+---
 
----  
+# 📝 PDF to Excel Converter (OCR-Based)  
 
-## 🚀 **Project Overview**  
-This project extracts tabular data from PDF files and converts it into structured Excel format using OCR techniques. The solution effectively processes scanned or image-based PDFs, making data extraction seamless and automated.  
+### 🔍 Convert Scanned PDFs into Structured Excel Sheets Using OCR  
 
----  
+This project provides an **OCR-based PDF to Excel converter** using **Tesseract OCR, OpenCV, and Streamlit**. It helps extract text from **scanned PDFs** and convert them into a structured **Excel file (.xlsx)** while preserving the tabular format.  
 
-## 🛠 **Key Features**  
-✅ Converts PDFs to Excel using OCR  
-✅ Preprocesses images for better text recognition  
-✅ Uses adaptive thresholding for noise reduction  
-✅ Handles multiple pages in a PDF  
-✅ Structured tabular format output  
+---
 
----  
+## 🚀 Features  
 
-## 🏗 **Tech Stack Used**  
-- **Python** 🐍  
-- **OCR (Tesseract)** 📝  
-- **OpenCV** 🖼  
-- **Pandas** 📊  
-- **pdf2image** 📜  
-- **Poppler** 🖨  
+✔️ **Extracts text from scanned PDFs** using **Tesseract OCR**  
+✔️ **Preprocessing techniques** for noise reduction & better accuracy  
+✔️ **Streamlit Web UI** for easy file upload & download  
+✔️ **No need for Tabula or Camelot**  
+✔️ **Avoids image conversion**, ensuring direct text extraction  
+✔️ **User-friendly & lightweight** solution  
 
----  
+---
 
-## 📌 **Installation Guide**  
-### **Step 1: Clone the Repository**  
-```bash
-git clone https://github.com/SINGHBP29/convert_pdf_excel.git
-cd convert_pdf_excel
+## 📂 Project Structure  
+
 ```
-  
-### **Step 2: Install Required Dependencies**  
+📁 convert_pdf_excel  
+│── 📜 convert_pdf.py       # Core OCR-based PDF to Excel conversion logic  
+│── 📜 streamlit_file.py               # Streamlit web app for file upload & download  
+│── 📜 requirements.txt     # Required Python dependencies  
+│── 📜 README.md            # Project documentation (this file)  
+```
+
+---
+
+### 2️⃣ Install Dependencies  
 ```bash
 pip install -r requirements.txt
 ```
 
-### **Step 3: Run the Code**  
-```bash
-python pdf_to_excel.py --input yourfile.pdf --output output.xlsx
-```
-
----  
-
-## 📊 **Workflow**  
-1️⃣ Convert PDF pages to images  
-2️⃣ Preprocess images for better OCR accuracy  
-3️⃣ Extract text from images using **Tesseract OCR**  
-4️⃣ Structure extracted text into tabular format  
-5️⃣ Save the final output in **Excel (.xlsx)**  
-
----  
-
-## 🎯 **Usage Example**  
-```python
-pdf_to_excel("sample.pdf", "output.xlsx")
-```
-- Input: **Scanned PDF file**  
-- Output: **Excel file with structured tabular data**  
-
----  
-
-## 📬 **Submission Guidelines**  
-- **Complete the assignment within 8 hours** ⏳  
-- **Upload the project to GitHub** 🖥  
-- **Submit the report in the following email format:**  
-  ```
-  Subject: assignment_nitallahabad_scoreme_rollno
-  ```
-- **Send the submission to:** `it@scoreme.in` 📩  
-
----  
-
-## 🔥 **Challenges & Solutions**  
-🔹 **Issue:** Extracting structured tables from scanned PDFs  
-🔹 **Solution:** Used **OCR & preprocessing techniques** to enhance text recognition  
-🔹 **Issue:** Handling multi-page PDFs  
-🔹 **Solution:** Processed each page separately & merged results into Excel  
-
----  
-
-## 🤝 **Contributors**  
-👤 **[Your Name]** | [GitHub Profile](https://github.com/yourprofile)  
-
----  
-
-## 📜 **License**  
-This project is licensed under the **MIT License**.  
+🔹 **Ensure Tesseract is installed** (for Windows users, update the Tesseract path in `convert_pdf.py` if needed).  
 
 ---
 
-✨ **Happy Coding! 🚀**
+## 🎯 How to Use  
+
+### 📌 Method 1: Run the Python Script  
+```bash
+python convert_pdf.py --input input.pdf --output output.xlsx  
+```
+
+### 📌 Method 2: Run the Streamlit Web App  
+```bash
+streamlit run streamlit_file.py  
+```
+
+👆 **This will launch a browser-based UI** where you can upload a PDF and download the extracted Excel file.  
+
+---
+
+## 📌 Requirements  
+
+✅ Python 3.7+  
+✅ Tesseract OCR (`sudo apt install tesseract-ocr` for Linux)  
+✅ Dependencies from `requirements.txt`  
+
+---
+
+## 🏆 Contributors  
+
+👨‍💻 **Your Name** - *Developer*  
+📌 **GitHub:** [SINGHBP29](https://github.com/SINGHBP29/)  
+
