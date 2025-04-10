@@ -1,7 +1,0 @@
-streamlit
-pandas
-numpy
-pdf2image
-pytesseract
-opencv-python
-xlsxwriter
