@@ -1,6 +1,3 @@
-Here's an **attractive and well-structured README** for your project:  
-
----
 
 # 📝 PDF to Excel Converter (OCR-Based)  
 
