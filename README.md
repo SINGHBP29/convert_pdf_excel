@@ -65,6 +65,6 @@ streamlit run streamlit_file.py
 
 ## 🏆 Contributors  
 
-👨‍💻 **Your Name** - *Developer*  
+👨‍💻 **Bhanu Pratap Singh** - *Developer*  
 📌 **GitHub:** [SINGHBP29](https://github.com/SINGHBP29/)  
 
